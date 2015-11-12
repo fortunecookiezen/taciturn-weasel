@@ -22,8 +22,8 @@ apply plugin: 'docker'
 group = 'fortunecookiezen'
 
 jar {
-    baseName = 'gs-rick-boot-docker'
-    version =  '0.2.1'
+    baseName = 'taciturn-weasel'
+    version =  '6.6.6'
 }
 
 // tag::task[]

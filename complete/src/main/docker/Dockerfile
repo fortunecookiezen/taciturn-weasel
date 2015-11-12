@@ -1,5 +1,5 @@
 FROM java:8
 VOLUME /tmp
-ADD gs-rick-boot-docker-0.2.1.jar app.jar
+ADD taciturn-weasel-6.6.6.jar app.jar
 RUN bash -c 'touch /app.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
