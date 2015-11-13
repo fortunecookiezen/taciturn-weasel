@@ -14,7 +14,7 @@ public class Application {
 
 	@RequestMapping(value="/")
 	public String hello() {
-		return "redirect:/hello.html";
+		return "redirect:/index.html";
 	}
 
 
